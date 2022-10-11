@@ -8,19 +8,26 @@
     text-decoration: none;
     list-style: none;
 }
-.navbar-container {
-    background-color: rgba(0, 0, 0, 0.1);
+
+.home {
+    background-image: url(../src/img/bg-home.jpg);
+    height: 100vh;
+    background-size: cover;
 }
 
-.navbar {
+.navbar-container {
+    background-color: rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeats;
+
+}
+
+.navbar ul{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
 }
 
 .navbar ul li a {
-    margin: 0 20px 0 20px;
     padding: 20px 10px 20px 10px;
-    color: black;
+    color: white;
     font-size: 18px;
 }
