@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+@import url(./var.css);
 
+/* Config globais */
 * {
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style: none;
 }
 
+/* Header and Navbar */
 .home {
     background-image: url(../src/img/bg-home.jpg);
     height: 100vh;
@@ -16,18 +20,60 @@
 }
 
 .navbar-container {
-    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    /* background-color: rgba(0, 0, 0, 0.1); */
     background-repeat: no-repeats;
-
 }
-
+.navbar {
+    display: flex;
+    justify-content: center;
+}
 .navbar ul{
     display: flex;
     justify-content: space-around;
 }
+.navbar ul li {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
 
-.navbar ul li a {
-    padding: 20px 10px 20px 10px;
+.navbar ul li a { 
+    padding: 20px;
     color: white;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: var(--color-primary);
+    border-bottom: 1px solid var(--color-primary);
+}
+
+.logoImg {
+    margin: 0 30px;
+}
+
+/* Titulos */
+.titulo-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloComplemento {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--color-primary) !important;
+    font-size: 16px;
+}
+
+.tituloPrincipal {
+    font-size:100px;
+    margin: 15px 0;
+}
+
+.subtitulo {
+    margin: 0 0 15px;
     font-size: 18px;
 }
