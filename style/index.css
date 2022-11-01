@@ -120,9 +120,11 @@
     background-color: rgba(0, 0, 0, 0.8);
     padding: 40px 20px;
 }
+
 .horarios .tesouraImg {
     width: 50px;
 }
+
 .horarios h3 {
     color: var(--color-primary);
     font-size: 30px;
@@ -134,29 +136,31 @@
 .horarios .text {
     margin: 10px 0;
 }
+
 .horarios .text::after {
     content: '•';
     display: block;
     font-size: 25px;
-    margin-top: 10px ;
+    margin-top: 10px;
     color: white;
 }
 
-.horarios .text:last-of-type:after{
+.horarios .text:last-of-type:after {
     content: "|";
 }
 
-.horarios .text h4{
+.horarios .text h4 {
     color: grey;
     font-weight: 400;
     font-size: 16px;
 }
- .horarios span {
+
+.horarios span {
     color: white;
     font-size: 15px;
     display: block;
 
- }
+}
 
 .experiencia-container {
     width: 66%;
@@ -165,8 +169,9 @@
     margin-top: 100px;
 
 }
+
 .experiencia-container h2 {
-    font-weight: 400;   
+    font-weight: 400;
     font-size: 40px;
 }
 
@@ -178,37 +183,59 @@
     background-color: #a38f78;
     margin: 20px 0;
 }
+
 .conteudoExperiencia {
     display: flex;
     justify-content: space-between;
-  }
+}
 
-  .conteudoExperiencia p {
+.conteudoExperiencia p {
     margin-bottom: 20px;
     font-weight: 100;
-    font-size:17px;
-  }
+    font-size: 17px;
+}
 
-/* Titulos */
-/* Titulos */
-/* Titulos */
+/* Services */
+/* Services */
+/* Services */
 
 .services {
-    height: 100vh;
+    padding: 100px 0;
+    text-align: center;
+    background-color: var(--color-primary-light);
 }
 
-.services .container {
-    text-align: center;
-}
 
 .services .container h2 {
     font-weight: 400;
     font-size: 50px;
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
 
+.card-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
 
 .card {
     border: 3px solid var(--color-primary);
-    width: 300px;
+    width: 350px;
+    padding: 30px 30px;
+}
+
+.card h3 {
+    font-size: 20px;
+}
+
+
+.card p {
+    color: var(--color-secondary);
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.card-icon {
+    margin: 50px 0 30px 0;
 }
