@@ -239,3 +239,25 @@
 .card-icon {
     margin: 50px 0 30px 0;
 }
+
+
+/* Agendamento */
+/* Agendamento */
+/* Agendamento */
+
+.agendamento {
+    background-color: var(--color-primary);
+    padding: 100px 0;
+
+}
+
+.agendamento .container .centerText {
+    text-align: center;
+}
+
+.agendamento .container .centerText h2 {
+    font-weight: 400;
+    font-size: 50px;
+    color: var(--color-primary-light);
+    margin: 0 0 5px 0;
+}
