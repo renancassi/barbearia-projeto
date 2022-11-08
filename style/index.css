@@ -210,6 +210,8 @@
     font-weight: 400;
     font-size: 50px;
     color: var(--color-secondary);
+    margin: 0 0 5px 0;
+
 }
 
 .card-container {
@@ -247,8 +249,12 @@
 
 .agendamento {
     background-color: var(--color-primary);
+    background-image: url(../src/img/chair-ic.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 300px;
+    height: 100vh;
     padding: 100px 0;
-
 }
 
 .agendamento .container .centerText {
@@ -260,4 +266,14 @@
     font-size: 50px;
     color: var(--color-primary-light);
     margin: 0 0 5px 0;
+}
+
+.formAgendamento .personal-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formAgendamento  label {
+    display: block;
+    color: var(--color-primary-light);
 }
