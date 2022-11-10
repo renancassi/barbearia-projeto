@@ -268,13 +268,25 @@
     margin: 0 0 5px 0;
 }
 
+.formAgendamento {
+    margin-top: 60px;
+}
 
 .formAgendamento .personal-data {
     display: flex;
     justify-content: space-between;
 }
 
-.formAgendamento  label {
+.formAgendamento .input-wrapper label {
     display: block;
     color: var(--color-primary-light);
+    font-size: 15px;
 }
+
+.formAgendamento .input-wrapper input {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border-style: none;
+    width: 260px;
+}
+
