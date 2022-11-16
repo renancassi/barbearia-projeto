@@ -288,7 +288,7 @@
     margin-right: 0;
 }
 
-.formAgendamento  label {
+.formAgendamento label {
     display: block;
     color: var(--color-primary-light);
     font-size: 14px;
@@ -303,6 +303,7 @@
     outline: none;
     width: 100%;
 }
+
 .formAgendamento textarea {
     height: 150px;
     resize: none;
@@ -352,7 +353,7 @@
     width: 33%;
 }
 
-.gallery-wrapper div img{
+.gallery-wrapper div img {
     width: 100%;
     height: 100%;
 }
@@ -363,10 +364,10 @@
 /* Localização */
 
 .location {
-        padding: 100px 0;
-        background-image: url(../src/img/bg-location.jpg);
-        height: 100vh;
-        background-size: cover;
+    padding: 100px 0;
+    background-image: url(../src/img/bg-location.jpg);
+    height: 100vh;
+    background-size: cover;
 }
 
 
@@ -383,7 +384,7 @@
     align-items: center;
 }
 
-.localizacao-info .info .icon{ 
+.localizacao-info .info .icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -408,7 +409,7 @@
 
 
 .map iframe {
-    width: 100%;   
+    width: 100%;
 }
 
 /* Footer */
